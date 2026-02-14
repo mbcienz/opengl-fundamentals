@@ -9,8 +9,15 @@ The OpenGL state is referred as OpenGL context.
 
 OpenGL libraries are written in C. To allow a higher abstraction, object are used. Object are structs which contain informations.
 
+# Documentations
+- OpenGL: https://registry.khronos.org/OpenGL-Refpages/gl4/
+- GLFW: https://www.glfw.org/docs/latest/intro_guide.html
 # Before starting
 We need a window in which display the graphics. There already existing library to setup windows for OpenGL. The most popular libraries are GLUT, SDL, SFML and GLFW. We will use GLFW.
 
 ## GLFW
-GLFW is a library, written in C, which allow us to create a OpenGL contex, define window parameters and handle user inputs.
+GLFW is a library, written in C, which allow us to create a OpenGL context, define window parameters and handle user inputs.
+
+# GLAD
+OpenGL is a specification, this means that the function implementation is up to thte draver manufacturer. Since there are many different versions of OpenGL drivers, the location of most of its functions os not known at compile time and needs to be queried at run-time. 
+GLAD helps us in this cumbersome work. 
