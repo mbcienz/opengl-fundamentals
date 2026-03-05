@@ -1,4 +1,5 @@
 .vscode/
 textures/
+bin/
 *.exe
 *.a
