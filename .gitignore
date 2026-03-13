@@ -1,5 +1,6 @@
 .vscode/
 textures/
+models/
 bin/
 *.exe
 *.a
